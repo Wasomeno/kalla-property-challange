@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@300;400;500;600&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .ant-layout-sider {
+    position: fixed !important;
+  }
+
+  .ant-pagination {
+    justify-content: center !important;
+  }
+
+  .ant-dropdown-button {
+    width: 100% !important;
+  }
+
+  .ant-dropdown-button button:nth-child(1) {
+    width: 100% !important;
+    text-align: start;
+  }
+
+  h1.ant-typography {
+    font-size: 18px !important;
+  }
+}

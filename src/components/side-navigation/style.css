@@ -1,0 +1,9 @@
+.sidebar-navigation {
+  height: 100vh;
+}
+
+@media screen and (max-width: 480px) {
+  .sidebar-navigation {
+    height: 100%;
+  }
+}

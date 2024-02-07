@@ -1,0 +1,14 @@
+.top-navigation {
+  display: none;
+  height: 52px;
+  background-color: hsl(148, 100%, 25%);
+  position: sticky;
+  top: 0;
+  z-index: 40;
+}
+
+@media screen and (max-width: 480px) {
+  .top-navigation {
+    display: flex;
+  }
+}
